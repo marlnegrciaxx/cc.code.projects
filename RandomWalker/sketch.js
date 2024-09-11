@@ -19,8 +19,10 @@ function setup() {
   background(32);
 }
 
-// function windowResized 
-//     resizeCanvas()
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight)
+  background(32);
+}
 
 
 function draw() {
