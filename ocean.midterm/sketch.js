@@ -27,6 +27,8 @@ function draw() {
 
   //rect(0, 0, width, height / 2);
   pop();
+
+  
 }
 
 class Particle {
