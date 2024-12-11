@@ -5,7 +5,7 @@ function setup() {
   // pg = createGraphics(50, 50, WEBGL);
   colorMode(RGB);
 
-  for (let i = 0; i < 300; i++) {
+  for (let i = 0; i < 900; i++) {
     stars.push({
       x: random(width),
       y: random(height),
