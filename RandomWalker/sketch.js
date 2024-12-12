@@ -11,19 +11,13 @@ function setup() {
   x = width/2 ;
   y = height/2 ;
   
-  r= random (255)
-  g=random(255)
-  b=random (255)
+  r= random (250,143)
+  g=random(11,102)
+  b=random (0)
  
   colorMode (RGB)
-  background(32);
+  background(0);
 }
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight)
-  background(32);
-}
-
 
 function draw() {
 // for function works with point variable, creates point walker   
@@ -47,15 +41,15 @@ function draw() {
   g += random (-10,10)
   b += random (-10,10)
   
-  r + constrain (r, 100, 105)
+  r + constrain (g, 0, 10)
    
-  g + constrain (g, 100, 255)
+  g + constrain (20, 140, 240)
    
-  b + constrain (b, 100, 255)
+  b + constrain (20, 120, 160)
     
   stroke(r,g,b);
   strokeWeight (5)
-    point(x, y, 10)
+    point(x,y, 30)
   
   
   
