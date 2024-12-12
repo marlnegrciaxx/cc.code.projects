@@ -55,5 +55,5 @@ function draw() {
   
   //x= nextX
   //y=nextY
-          }
+          } 
 
